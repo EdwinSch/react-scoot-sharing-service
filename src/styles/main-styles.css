@@ -1,0 +1,111 @@
+/* Init */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Variables */
+:root {
+  --clr-background: #ffffff;
+  --clr-yellow: #fcb72b;
+  --clr-lightYellow: #fff4df;
+  --clr-darkNavy: #495567;
+  --clr-dimGrey: #939caa;
+  --clr-lightGrey: #e5ecf4;
+  --clr-snow: #f2f5f9;
+  --font-body: "Lexend Deca", sans-serif;
+  --font-heading: "Space Mono", monospace;
+  --inspect: solid red 1px;
+}
+
+/* --- MAIN CSS --- */
+
+body {
+  font-family: font var(--font-body);
+  background-color: var(--background);
+  min-height: 100vh;
+}
+
+h1 {
+  color: var(--clr-darkNavy);
+  font-family: var(--font-heading);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+}
+
+h2 {
+  color: var(--clr-darkNavy);
+  font-family: var(--font-heading);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.5px;
+}
+
+h3 {
+  color: var(--clr-darkNavy);
+  font-family: var(--font-heading);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1.786px;
+}
+
+h4 {
+  color: var(--clr-darkNavy);
+  font-family: var(--font-heading);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.071px;
+}
+
+.body-text {
+  color: var(--clr-darkNavy);
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.btn {
+  width: 195px;
+  height: 53px;
+  background-color: var(--clr-yellow);
+  font-family: var(--font-heading);
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  border: 3px solid var(--clr-yellow);
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 250ms ease;
+
+  &:hover {
+    color: var(--clr-yellow);
+    background-color: transparent;
+  }
+}
+
+/* --- MOBILE RESPONSIVE --- */
+
+@media screen and (max-width: 450px) {
+  /* some class */
+}

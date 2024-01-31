@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { navLinks } from "../../data";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import { LogoDark } from "../Logos";
@@ -16,7 +15,7 @@ const Header = () => {
         <LogoDark aria-label="logo" />
       </Link>
 
-      <Navigation />
+      <Navigation classlist={"horizontal-navigation hide-x-navi"} />
 
       <button className="btn header-btn">get scootin</button>
     </header>

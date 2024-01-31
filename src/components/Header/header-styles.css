@@ -1,4 +1,5 @@
 /* --- HEADER COMPONENT --- */
+
 header {
   border: var(--inspect);
   display: flex;

@@ -17,9 +17,21 @@ export const navLinks = [
 ];
 
 export const socialLinks = [
-  <FaInstagram />,
-  <FaXTwitter />,
-  <FaSquareFacebook />,
+  {
+    icon: <FaInstagram />,
+    url: "https://www.instagram.com/",
+    label: "Instagram",
+  },
+  {
+    icon: <FaXTwitter />,
+    url: "https://www.twitter.com/",
+    label: "X, formerly Twitter",
+  },
+  {
+    icon: <FaSquareFacebook />,
+    url: "https://www.facebook.com/",
+    label: "Facebook",
+  },
 ];
 
 export const faq = [

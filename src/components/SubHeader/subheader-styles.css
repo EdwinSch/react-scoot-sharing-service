@@ -1,0 +1,40 @@
+.subheader-container {
+  position: relative;
+  height: 200px;
+  padding: 0 160px;
+  background-image: url(../../assets/images/about-hero-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: start;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  & img {
+    position: absolute;
+    right: -30px;
+  }
+
+  @media screen and (max-width: 950px) {
+    padding: 0 100px;
+  }
+
+  @media screen and (max-width: 700px) {
+    padding: 0 32px;
+    height: 160px;
+    justify-content: center;
+    background-image: url(../../assets/images/about-hero-mobile.jpg);
+    background-position: center;
+
+    & h1 {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -1.786px;
+    }
+
+    & img {
+      display: none;
+    }
+  }
+}

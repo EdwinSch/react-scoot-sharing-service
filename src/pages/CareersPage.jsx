@@ -1,5 +1,7 @@
-const CarreersPage = () => {
-  return <div>CarreersPage</div>;
+import SubHeader from "../components/SubHeader/SubHeader";
+
+const CareersPage = () => {
+  return <SubHeader text={"careers"} />;
 };
 
-export default CarreersPage;
+export default CareersPage;

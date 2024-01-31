@@ -1,5 +1,7 @@
+import SubHeader from "../components/SubHeader/SubHeader";
+
 const LocationPage = () => {
-  return <div>LocationPage</div>;
+  return <SubHeader text={"location"} />;
 };
 
 export default LocationPage;

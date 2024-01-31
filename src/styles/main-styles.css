@@ -44,6 +44,12 @@ body {
   min-height: 100vh;
 }
 
+main {
+  /* border: var(--inspect); */
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
 h1 {
   color: var(--clr-darkNavy);
   font-family: var(--font-heading);
@@ -89,7 +95,7 @@ h4 {
 }
 
 .btn {
-  width: 195px;
+  min-width: 195px;
   height: 53px;
   background-color: var(--clr-yellow);
   font-family: var(--font-heading);
@@ -104,6 +110,15 @@ h4 {
   &:hover {
     color: var(--clr-yellow);
     background-color: transparent;
+  }
+}
+
+.home-link {
+  min-width: 108px;
+  transition: 250ms ease;
+
+  &:hover {
+    transform: scale(1.05);
   }
 }
 

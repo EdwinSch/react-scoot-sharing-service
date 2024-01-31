@@ -6,7 +6,7 @@ const BaseLayout = () => {
     <main>
       <Header />
       <Outlet />
-      <footer>FOOTER PLaceholder</footer>
+      <footer>FOOTER Placeholder</footer>
     </main>
   );
 };

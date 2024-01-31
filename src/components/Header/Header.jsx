@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import { navLinks } from "../../data";
-import logo from "../../assets/logo.svg";
 import { GiHamburgerMenu } from "react-icons/gi";
+
+import { LogoDark } from "../Logos";
+import Navigation from "../Navigation/Navigation";
 
 const Header = () => {
   return (
@@ -11,18 +13,10 @@ const Header = () => {
       </button>
 
       <Link to={"/"} className="home-link">
-        <img src={logo} alt="logo" className="logo-img" />
+        <LogoDark aria-label="logo" />
       </Link>
 
-      <nav>
-        {navLinks.map((link, index) => {
-          return (
-            <Link key={index} to={link.linkTo} className="link">
-              {link.label}
-            </Link>
-          );
-        })}
-      </nav>
+      <Navigation />
 
       <button className="btn header-btn">get scootin</button>
     </header>

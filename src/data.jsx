@@ -1,4 +1,5 @@
 import { nanoid } from "nanoid";
+import { FaSquareFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
 
 export const navLinks = [
   {
@@ -13,6 +14,12 @@ export const navLinks = [
     linkTo: "/careers",
     label: "careers",
   },
+];
+
+export const socialLinks = [
+  <FaInstagram />,
+  <FaXTwitter />,
+  <FaSquareFacebook />,
 ];
 
 export const faq = [

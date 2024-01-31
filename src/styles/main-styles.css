@@ -114,8 +114,7 @@ h4 {
 }
 
 .home-link {
-  min-width: 108px;
-  transition: 250ms ease;
+  transition: 200ms ease;
 
   &:hover {
     transform: scale(1.05);

@@ -17,7 +17,14 @@ const Header = () => {
 
       <Navigation classlist={"horizontal-navigation hide-x-navi"} />
 
-      <button className="btn header-btn">get scootin</button>
+      <a
+        href="#signup"
+        className="btn header-btn"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Get scooting
+      </a>
     </header>
   );
 };

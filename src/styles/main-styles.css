@@ -25,6 +25,7 @@ ul {
 /* Variables */
 :root {
   --clr-background: #ffffff;
+  --clr-coal: #333a44;
   --clr-yellow: #fcb72b;
   --clr-lightYellow: #fff4df;
   --clr-darkNavy: #495567;
@@ -46,7 +47,8 @@ body {
 
 main {
   margin: 0 auto;
-  max-width: 1140px;
+  max-width: 1440px;
+  overflow: hidden;
 }
 
 h1 {
@@ -105,6 +107,8 @@ h4 {
   text-transform: capitalize;
   cursor: pointer;
   transition: 250ms ease;
+  display: grid;
+  place-items: center;
 
   &:hover {
     color: var(--clr-yellow);

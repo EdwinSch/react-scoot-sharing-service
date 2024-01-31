@@ -1,4 +1,7 @@
-/* Init */
+/* IMPORT */
+@import "../styles/components-index.css";
+
+/* INIT */
 *,
 ::after,
 ::before {
@@ -36,7 +39,7 @@ ul {
 /* --- MAIN CSS --- */
 
 body {
-  font-family: font var(--font-body);
+  font-family: var(--font-body);
   background-color: var(--background);
   min-height: 100vh;
 }

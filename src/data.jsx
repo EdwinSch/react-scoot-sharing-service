@@ -1,5 +1,23 @@
 import { nanoid } from "nanoid";
 
+export const navLinks = [
+  {
+    id: 1,
+    linkTo: "/about",
+    label: "about",
+  },
+  {
+    id: 2,
+    linkTo: "/location",
+    label: "location",
+  },
+  {
+    id: 3,
+    linkTo: "/careers",
+    label: "careers",
+  },
+];
+
 export const faq = [
   {
     id: nanoid(),

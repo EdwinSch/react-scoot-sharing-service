@@ -97,7 +97,7 @@ export const faq = [
   },
 ];
 
-export const jobs = [
+export const jobsData = [
   {
     id: nanoid(),
     title: "General Manager",

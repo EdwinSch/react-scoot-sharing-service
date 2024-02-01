@@ -31,6 +31,10 @@
       width: 350px;
       position: relative;
 
+      @media screen and (max-width: 400px) {
+        width: 100%;
+      }
+
       .value-img {
         border-radius: 50%;
       }

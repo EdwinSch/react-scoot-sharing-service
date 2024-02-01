@@ -1,6 +1,7 @@
 import SubHeader from "../components/SubHeader/SubHeader";
 import InfoBullet from "../components/InfoBullet/InfoBullet";
 import Values from "../components/Value/Values";
+import Jobs from "../components/Jobs/Jobs";
 // Images
 import joinUs from "../assets/images/join-us.jpg";
 // Patterns
@@ -29,6 +30,9 @@ const CareersPage = () => {
 
       {/* Why Join Us */}
       <Values title={"Why join us?"} />
+
+      {/* Jobs */}
+      <Jobs />
     </>
   );
 };

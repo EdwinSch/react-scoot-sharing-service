@@ -3,6 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 import { LogoDark } from "../Logos";
 import Navigation from "../Navigation/Navigation";
+import GetScootinButton from "../GetScootinButton";
 
 const Header = () => {
   return (
@@ -17,9 +18,7 @@ const Header = () => {
 
       <Navigation classlist={"horizontal-navigation hide-x-navi"} />
 
-      <a href="#signup" className="btn header-btn" rel="noreferrer">
-        Get scooting
-      </a>
+      <GetScootinButton />
     </header>
   );
 };

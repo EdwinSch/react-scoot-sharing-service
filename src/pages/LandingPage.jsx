@@ -1,3 +1,4 @@
+import Hero from "../components/Hero/Hero";
 import InfoBullet from "../components/InfoBullet/InfoBullet";
 import LearnMoreButton from "../components/LearnMoreButton";
 // Images
@@ -11,6 +12,7 @@ import rightArrow from "../assets/patterns/right-arrow.svg";
 const LandingPage = () => {
   return (
     <>
+      <Hero />
       <section>
         {/* Bullet 1 */}
         <InfoBullet

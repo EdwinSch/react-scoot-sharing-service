@@ -1,4 +1,5 @@
 import SubHeader from "../components/SubHeader/SubHeader";
+import Values from "../components/Value/Values";
 
 const AboutPage = () => {
   return (

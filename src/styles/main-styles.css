@@ -39,6 +39,10 @@ ul {
 
 /* --- MAIN CSS --- */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-body);
   background-color: var(--background);
@@ -122,11 +126,6 @@ h4 {
   &:hover {
     transform: scale(1.05);
   }
-}
-
-.info-summary-container {
-  border: var(--inspect);
-  margin: 200px 0 50px 0;
 }
 
 /* --- MOBILE RESPONSIVE --- */

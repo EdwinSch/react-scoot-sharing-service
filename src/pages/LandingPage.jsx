@@ -11,7 +11,7 @@ import rightArrow from "../assets/patterns/right-arrow.svg";
 const LandingPage = () => {
   return (
     <>
-      <section className="info-summary-container">
+      <section>
         {/* Bullet 1 */}
         <InfoBullet
           classlist={"info-bullet-container"}

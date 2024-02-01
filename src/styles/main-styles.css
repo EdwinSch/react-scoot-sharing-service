@@ -88,7 +88,7 @@ h4 {
 }
 
 .body-text {
-  color: var(--clr-darkNavy);
+  color: var(--clr-dimGrey);
   font-family: var(--font-body);
   font-size: 15px;
   font-weight: 400;
@@ -96,7 +96,7 @@ h4 {
 }
 
 .btn {
-  min-width: 195px;
+  width: 180px;
   height: 53px;
   background-color: var(--clr-yellow);
   font-family: var(--font-heading);
@@ -122,6 +122,11 @@ h4 {
   &:hover {
     transform: scale(1.05);
   }
+}
+
+.info-summary-container {
+  border: var(--inspect);
+  margin: 200px 0 50px 0;
 }
 
 /* --- MOBILE RESPONSIVE --- */

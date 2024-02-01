@@ -1,10 +1,10 @@
-import whiteCircles from "../../assets/patterns/white-circles.svg";
+import semiCircles from "../../assets/patterns/semi-circles.svg";
 
 const Signup = () => {
   return (
     <section className="signup-container" id="signup">
       {/* Background Pattern */}
-      <img src={whiteCircles} alt="pattern" aria-hidden="true" />
+      <img src={semiCircles} alt="pattern" aria-hidden="true" />
 
       {/* Heading */}
       <h2 style={{ color: "#ffffff" }}>

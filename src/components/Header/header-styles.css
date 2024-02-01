@@ -20,7 +20,7 @@ header {
   }
 
   .toggle-menu-btn {
-    position: fixed;
+    position: absolute;
     left: 32px;
     background: transparent;
     border: none;

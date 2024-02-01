@@ -10,10 +10,8 @@
 
   & img {
     position: absolute;
-    right: -140px;
-    bottom: -160px;
-    height: 300px;
-    opacity: 0.1;
+    right: -180px;
+    bottom: 0;
   }
 
   .appstore-btns-wrapper {

@@ -1,7 +1,36 @@
 import SubHeader from "../components/SubHeader/SubHeader";
+import InfoBullet from "../components/InfoBullet/InfoBullet";
+import Values from "../components/Value/Values";
+// Images
+import joinUs from "../assets/images/join-us.jpg";
+// Patterns
+import leftDownArrow from "../assets/patterns/left-downward-arrow.svg";
 
 const CareersPage = () => {
-  return <SubHeader text={"careers"} />;
+  return (
+    <>
+      {/* Sub Header */}
+      <SubHeader text={"careers"} />
+
+      {/* Info Bullet */}
+      <InfoBullet
+        classlist={"info-bullet-container"}
+        image={joinUs}
+        arrowStyle={leftDownArrow}
+        title={"Care to join our mission?"}
+        text={
+          "We’re always looking for ambitious individuals to help us on our journey. If you’re passionate about our mission to provide clean, accessible transport to improve urban living we want to hear from you!"
+        }
+      >
+        <button className="btn" type="button">
+          say hallo
+        </button>
+      </InfoBullet>
+
+      {/* Why Join Us */}
+      <Values title={"Why join us?"} />
+    </>
+  );
 };
 
 export default CareersPage;

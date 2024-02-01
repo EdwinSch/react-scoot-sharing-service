@@ -1,16 +1,18 @@
 import singleCircle from "../../assets/patterns/circle.svg";
 
-const InfoBullet = ({ classlist, image, arrowStyle, children }) => {
+const InfoBullet = ({
+  classlist,
+  image,
+  arrowStyle,
+  title,
+  text,
+  children,
+}) => {
   return (
     <article className={classlist}>
       <div className="info-wrapper">
-        <h2>Easy to use riding telemetry</h2>
-        <p className="body-text">
-          The Scoot app is available with riding telemetry. This means it can
-          show you your average speed, how long you've been using the scooter,
-          your traveling distance, and many more things all in an easy to use
-          app.
-        </p>
+        <h2>{title}</h2>
+        <p className="body-text">{text}</p>
         {children}
       </div>
       <img className="info-bullet-img" src={image} alt="stock photo" />

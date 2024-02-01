@@ -1,5 +1,8 @@
 import { nanoid } from "nanoid";
 import { FaSquareFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import techImg from "./assets/images/our-tech.jpg";
+import integrityImg from "./assets/images/our-integrity.jpg";
+import communityImg from "./assets/images/our-community.jpg";
 
 export const navLinks = [
   {
@@ -31,6 +34,27 @@ export const socialLinks = [
     icon: <FaSquareFacebook />,
     url: "https://www.facebook.com/",
     label: "Facebook",
+  },
+];
+
+export const values = [
+  {
+    id: 1,
+    img: techImg,
+    value: "Our tech",
+    text: "We’re using cutting edge technology to drive accessible urban transportation forward. Our fully electric scooters are a joy to ride!",
+  },
+  {
+    id: 2,
+    img: integrityImg,
+    value: "Our integrity",
+    text: "We are fully committed to deliver a great yet safe, sustainable micro-mobility experience in every city we serve.",
+  },
+  {
+    id: 3,
+    img: communityImg,
+    value: "Our community",
+    text: "We support every community we serve. All workers are paid a living wage based on their location and are Scoot employees.",
   },
 ];
 

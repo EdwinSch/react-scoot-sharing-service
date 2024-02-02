@@ -1,0 +1,102 @@
+/* INSTRUCTIONS COMPONENT */
+
+.instructions-component-container {
+  display: flex;
+
+  .ghost-element {
+    border-top: 10px solid var(--clr-lightGrey);
+    min-width: 165px;
+    /* border: var(--inspect); */
+  }
+
+  .instructions-wrapper {
+    position: relative;
+    border-top: 10px solid var(--clr-lightGrey);
+    width: 400px;
+
+    .instruction-icon {
+      position: absolute;
+      top: -55px;
+    }
+
+    .instruction-txt-wrapper {
+      margin-right: 50px;
+      padding-top: 90px;
+
+      & h4 {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .instructions-wrapper:nth-child(4) {
+    border-top: 10px solid transparent;
+  }
+
+  @media screen and (max-width: 950px) {
+    padding: 0 150px;
+    flex-direction: column;
+
+    .ghost-element {
+      border-top: none;
+      border-left: 10px solid var(--clr-lightGrey);
+      height: 120px;
+      width: 0px;
+    }
+
+    .instructions-wrapper {
+      padding-left: 100px;
+      padding-bottom: 50px;
+      border-top: none;
+      border-left: 10px solid var(--clr-lightGrey);
+      width: 100%;
+
+      .instruction-icon {
+        position: absolute;
+        top: 0;
+        left: -50px;
+      }
+
+      .instruction-txt-wrapper {
+        margin-right: 0;
+        padding: 0;
+      }
+    }
+
+    .instructions-wrapper:nth-child(4) {
+      border-top: none;
+      border-left: 10px solid transparent;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    padding: 0 32px;
+    gap: 40px;
+
+    .ghost-element {
+      display: none;
+    }
+
+    .instructions-wrapper {
+      padding: 0;
+      border: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      .instruction-icon {
+        width: 56px;
+        position: static;
+      }
+
+      .instruction-txt-wrapper {
+        & h4 {
+          margin: 20px 0;
+          font-size: 20px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}

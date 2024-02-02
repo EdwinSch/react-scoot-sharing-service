@@ -3,6 +3,9 @@ import { FaSquareFacebook, FaInstagram, FaXTwitter } from "react-icons/fa6";
 import techImg from "./assets/images/our-tech.jpg";
 import integrityImg from "./assets/images/our-integrity.jpg";
 import communityImg from "./assets/images/our-community.jpg";
+import locate from "./assets/icons/locate.svg";
+import scooter from "./assets/icons/scooter.svg";
+import ride from "./assets/icons/ride.svg";
 
 export const navLinks = [
   {
@@ -19,21 +22,24 @@ export const navLinks = [
   },
 ];
 
-export const socialLinks = [
+export const instructionsData = [
   {
-    icon: <FaInstagram />,
-    url: "https://www.instagram.com/",
-    label: "Instagram",
+    id: 1,
+    icon: locate,
+    heading: "Locate with app",
+    text: "Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away.",
   },
   {
-    icon: <FaXTwitter />,
-    url: "https://www.twitter.com/",
-    label: "X, formerly Twitter",
+    id: 2,
+    icon: scooter,
+    heading: "Pick your scooter",
+    text: "We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.",
   },
   {
-    icon: <FaSquareFacebook />,
-    url: "https://www.facebook.com/",
-    label: "Facebook",
+    id: 3,
+    icon: ride,
+    heading: "Enjoy the ride",
+    text: "Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.",
   },
 ];
 
@@ -55,6 +61,24 @@ export const values = [
     img: communityImg,
     value: "Our community",
     text: "We support every community we serve. All workers are paid a living wage based on their location and are Scoot employees.",
+  },
+];
+
+export const socialLinks = [
+  {
+    icon: <FaInstagram />,
+    url: "https://www.instagram.com/",
+    label: "Instagram",
+  },
+  {
+    icon: <FaXTwitter />,
+    url: "https://www.twitter.com/",
+    label: "X, formerly Twitter",
+  },
+  {
+    icon: <FaSquareFacebook />,
+    url: "https://www.facebook.com/",
+    label: "Facebook",
   },
 ];
 

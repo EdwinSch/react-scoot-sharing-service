@@ -1,0 +1,59 @@
+/* World Map Component */
+
+.locations-container {
+  padding: 0 160px;
+
+  .map-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .cities-container {
+    margin: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    .city {
+      background-color: var(--clr-lightYellow);
+      flex: 1;
+      padding: 20px 0;
+      font-family: var(--font-heading);
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: -1px;
+      text-transform: capitalize;
+      text-align: center;
+    }
+  }
+
+  .locations-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 950px) {
+    padding: 0 32px;
+
+    .cities-container {
+      flex-direction: column;
+
+      @media screen and (max-width: 700px) {
+        margin: 30px 0;
+      }
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .locations-info-wrapper {
+      & h2 {
+        font-size: 32px;
+        line-height: 32px;
+      }
+    }
+  }
+}

@@ -82,7 +82,7 @@ export const socialLinks = [
   },
 ];
 
-export const faq = [
+export const faqData = [
   {
     id: nanoid(),
     question: "How do I download the app?",

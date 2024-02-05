@@ -1,6 +1,7 @@
 import SubHeader from "../components/SubHeader/SubHeader";
-import Values from "../components/Value/Values";
 import InfoBullet from "../components/InfoBullet/InfoBullet";
+import Values from "../components/Value/Values";
+import Faq from "../components/Faq/Faq";
 // Images
 import imgDigitalEra from "../assets/images/digital-era.jpg";
 import imgBetterLiving from "../assets/images/better-living.jpg";
@@ -40,6 +41,9 @@ const AboutPage = () => {
 
       {/* Our values */}
       <Values title={"Our values"} />
+
+      {/* FAQs */}
+      <Faq />
     </>
   );
 };

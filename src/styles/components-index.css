@@ -5,6 +5,8 @@
 @import "../components/Navigation/navigation-styles.css";
 @import "../components/InfoBullet/info-bullet-styles.css";
 @import "../components/Value/value-styles.css";
+@import "../components/Faq/faq-styles.css";
+@import "../components/Question/question-styles.css";
 @import "../components/Jobs/jobs-styles.css";
 @import "../components/Signup/signup-styles.css";
 @import "../components/Footer/footer-styles.css";

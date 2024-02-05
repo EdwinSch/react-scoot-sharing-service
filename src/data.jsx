@@ -84,37 +84,37 @@ export const socialLinks = [
 
 export const faqData = [
   {
-    id: nanoid(),
+    id: 1,
     question: "How do I download the app?",
     answer:
       "To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.",
   },
   {
-    id: nanoid(),
+    id: 2,
     question: "Can I find a nearby Scoots?",
     answer:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt interdum congue. Sed nec tempor dolor. Maecenas scelerisque consequat ultrices. Nam molestie eros a posuere vestibulum. Nunc id nulla et tellus gravida placerat sed congue risus.",
   },
   {
-    id: nanoid(),
+    id: 3,
     question: "Do I need a license to ride?",
     answer:
       "Nunc convallis pretium ipsum sed fringilla. Curabitur suscipit consequat elit, at tristique ex pharetra vel. Vivamus nec velit dictum, rutrum massa quis, fermentum ligula. Cras pulvinar ipsum in nunc aliquet egestas.",
   },
   {
-    id: nanoid(),
+    id: 4,
     question: "Should I wear a helmet?",
     answer:
       "Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.",
   },
   {
-    id: nanoid(),
+    id: 5,
     question: "How about the rules & regulations?",
     answer:
       "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris nibh lacus, finibus et volutpat a, laoreet sed lorem. Nullam quis lacinia orci.",
   },
   {
-    id: nanoid(),
+    id: 6,
     question: "What if I damage my Scoot?",
     answer:
       "Praesent in tellus rhoncus ex consectetur ultrices. Praesent nisi justo, fermentum non porttitor nec, sagittis viverra enim. . Cras vestibulum, libero eget consequat varius, purus velit pellentesque quam, nec laoreet nisi purus at purus.",

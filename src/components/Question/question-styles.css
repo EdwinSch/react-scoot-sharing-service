@@ -39,4 +39,8 @@
       padding-top: 20px;
     }
   }
+
+  .hide-answer {
+    display: none;
+  }
 }

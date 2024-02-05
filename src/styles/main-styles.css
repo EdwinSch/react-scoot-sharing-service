@@ -53,6 +53,7 @@ main {
   margin: 0 auto;
   max-width: 1440px;
   overflow: hidden;
+  position: relative;
 }
 
 h1 {

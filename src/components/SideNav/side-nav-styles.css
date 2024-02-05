@@ -1,0 +1,45 @@
+aside {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  padding: 70px 30px 30px 30px;
+  background-color: var(--clr-coal);
+  color: #ffffff;
+  width: 100%;
+  height: calc(100vh - 65px);
+  z-index: 4;
+  transition: 300ms ease-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .aside-navi-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .aside-link {
+      text-transform: capitalize;
+      color: white;
+      font-family: var(--font-heading);
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 250ms ease;
+
+      &:hover {
+        color: var(--clr-yellow);
+      }
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    display: none;
+  }
+}
+
+.hide-aside {
+  left: -100%;
+  overflow: hidden;
+}

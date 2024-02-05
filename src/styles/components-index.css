@@ -1,4 +1,5 @@
 @import "../components/Header/header-styles.css";
+@import "../components/SideNav/side-nav-styles.css";
 @import "../components/SubHeader/subheader-styles.css";
 @import "../components/Hero/hero-styles.css";
 @import "../components/Instructions/instructions-styles.css";

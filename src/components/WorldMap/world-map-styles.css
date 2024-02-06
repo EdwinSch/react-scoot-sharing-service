@@ -1,6 +1,7 @@
 /* World Map Component */
 
 .locations-container {
+  margin-top: 120px;
   padding: 0 160px;
 
   .map-img {
@@ -10,7 +11,7 @@
   }
 
   .cities-container {
-    margin: 60px 0;
+    margin: 70px 0;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -43,7 +44,7 @@
       flex-direction: column;
 
       @media screen and (max-width: 700px) {
-        margin: 30px 0;
+        margin: 70px 0;
       }
     }
   }

@@ -1,5 +1,6 @@
 .signup-container {
   position: relative;
+  margin-top: 200px;
   padding: 0 160px;
   height: 300px;
   display: flex;
@@ -20,6 +21,7 @@
   }
 
   @media screen and (max-width: 1100px) {
+    margin-top: 120px;
     padding: 0 32px;
     flex-direction: column;
     justify-content: center;

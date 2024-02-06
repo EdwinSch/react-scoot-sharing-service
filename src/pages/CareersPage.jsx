@@ -14,19 +14,21 @@ const CareersPage = () => {
       <SubHeader text={"careers"} />
 
       {/* Info Bullet */}
-      <InfoBullet
-        classlist={"info-bullet-container"}
-        image={joinUs}
-        arrowStyle={leftDownArrow}
-        title={"Care to join our mission?"}
-        text={
-          "We’re always looking for ambitious individuals to help us on our journey. If you’re passionate about our mission to provide clean, accessible transport to improve urban living we want to hear from you!"
-        }
-      >
-        <button className="btn" type="button">
-          say hallo
-        </button>
-      </InfoBullet>
+      <section className="component-spacing">
+        <InfoBullet
+          classlist={"info-bullet-container"}
+          image={joinUs}
+          arrowStyle={leftDownArrow}
+          title={"Care to join our mission?"}
+          text={
+            "We’re always looking for ambitious individuals to help us on our journey. If you’re passionate about our mission to provide clean, accessible transport to improve urban living we want to hear from you!"
+          }
+        >
+          <button className="btn" type="button">
+            say hallo
+          </button>
+        </InfoBullet>
+      </section>
 
       {/* Why Join Us */}
       <Values title={"Why join us?"} />

@@ -56,6 +56,8 @@ main {
   position: relative;
 }
 
+/* --- UTILITIES --- */
+
 h1 {
   color: var(--clr-darkNavy);
   font-family: var(--font-heading);
@@ -126,6 +128,14 @@ h4 {
 
   &:hover {
     transform: scale(1.05);
+  }
+}
+
+.component-spacing {
+  margin-top: 120px;
+
+  @media screen and (max-width: 700px) {
+    margin-top: 75px;
   }
 }
 

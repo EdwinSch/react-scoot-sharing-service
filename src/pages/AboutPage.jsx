@@ -16,7 +16,7 @@ const AboutPage = () => {
       <SubHeader text={"about"} />
 
       {/* Info Bullets */}
-      <section>
+      <section className="component-spacing">
         {/* Bullet 1 */}
         <InfoBullet
           classlist={"info-bullet-container"}

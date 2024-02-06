@@ -1,6 +1,7 @@
 /* INSTRUCTIONS COMPONENT */
 
 .instructions-component-container {
+  margin-top: 200px;
   display: flex;
 
   .ghost-element {
@@ -34,6 +35,7 @@
   }
 
   @media screen and (max-width: 950px) {
+    margin-top: 0;
     padding: 0 150px;
     flex-direction: column;
 
@@ -70,6 +72,7 @@
   }
 
   @media screen and (max-width: 700px) {
+    margin-top: 80px;
     padding: 0 32px;
     gap: 40px;
 

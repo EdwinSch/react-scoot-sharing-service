@@ -20,7 +20,7 @@ const LandingPage = () => {
       <Instructions />
 
       {/* Info Bullets */}
-      <section>
+      <section className="component-spacing">
         {/* Bullet 1 */}
         <InfoBullet
           classlist={"info-bullet-container"}
@@ -33,8 +33,7 @@ const LandingPage = () => {
         >
           <LearnMoreButton />
         </InfoBullet>
-
-        {/* Bullet 2 */}
+        ={/* Bullet 2 */}
         <InfoBullet
           classlist={"info-bullet-container inverse"}
           image={imgCity}
@@ -46,7 +45,6 @@ const LandingPage = () => {
         >
           <LearnMoreButton />
         </InfoBullet>
-
         {/* Bullet 3 */}
         <InfoBullet
           classlist={"info-bullet-container"}

@@ -22,6 +22,7 @@ const Header = ({ asideIsOpen, setAsideIsOpen }) => {
         to={"/"}
         onClick={() => setAsideIsOpen(false)}
         className="home-link"
+        aria-label="homepage"
       >
         <LogoDark aria-label="logo" />
       </Link>

@@ -14,6 +14,7 @@ const SideNav = ({ asideIsOpen, setAsideIsOpen }) => {
               to={link.linkTo}
               onClick={() => setAsideIsOpen(false)}
               className="aside-link"
+              aria-label={link.label}
             >
               {link.label}
             </Link>

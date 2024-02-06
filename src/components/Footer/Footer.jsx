@@ -6,7 +6,7 @@ import { socialLinks } from "../../data";
 const Footer = () => {
   return (
     <footer>
-      <Link to={"/"} className="home-link">
+      <Link to={"/"} className="home-link" aria-label="homepage">
         <LogoLight aria-label="logo" />
       </Link>
 

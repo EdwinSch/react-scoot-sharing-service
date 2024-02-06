@@ -6,7 +6,12 @@ const Navigation = ({ classlist }) => {
     <nav className={classlist}>
       {navLinks.map((link, index) => {
         return (
-          <Link key={index} to={link.linkTo} className="link">
+          <Link
+            key={index}
+            to={link.linkTo}
+            className="link"
+            aria-label={link.label}
+          >
             {link.label}
           </Link>
         );

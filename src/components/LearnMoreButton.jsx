@@ -2,10 +2,8 @@ import { Link } from "react-router-dom";
 
 const LearnMoreButton = () => {
   return (
-    <Link to="/about" className="link" aria-label="about">
-      <button className="btn" type="button">
-        learn more
-      </button>
+    <Link to="/about" className="btn link" aria-label="learn more">
+      learn more
     </Link>
   );
 };

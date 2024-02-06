@@ -4,7 +4,7 @@ const GetScootinButton = () => {
       href="#signup"
       className="btn header-btn"
       rel="noreferrer"
-      aria-label="scroll to appstore buttons"
+      aria-label="get scootin"
     >
       Get scooting
     </a>

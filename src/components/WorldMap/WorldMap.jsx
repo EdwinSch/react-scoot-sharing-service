@@ -1,4 +1,4 @@
-import mapImg from "../../assets/images/world-map-mobile.png";
+import mapImg from "../../assets/images/world-map-modi.png";
 
 const WorldMap = () => {
   return (
